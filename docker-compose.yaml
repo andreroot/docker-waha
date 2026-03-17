@@ -13,8 +13,8 @@ services:
     environment:
       - WHATSAPP_DEFAULT_ENGINE=NOWEB
       - WHATSAPP_HOOK_EVENTS=message,message.any
-      - WHATSAPP_HOOK_URL=http://n8n:5678/webhook/1294b59a-9220-4ced-9497-871fb3e4c202/waha
-
+      - WHATSAPP_HOOK_URL=http://n8n:5678/webhook/c0edae36-810e-4653-a869-388867d03d56/waha
+    # http://n8n:5678/webhook-test/c0edae36-810e-4653-a869-388867d03d56/waha
     # ports:
     #   - '127.0.0.1:3000:3000/tcp'
     ports:

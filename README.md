@@ -35,6 +35,8 @@ message, message.any
 
     docker-compose up --build -d
 
+    docker-compose up -d --force-recreate waha
+    
     docker-compose down --volumes --remove-orphans
 
     docker-compose build --no-cache
